@@ -1,0 +1,37 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 9vh;
+  margin-bottom: 1vh;
+}
+.nav a {
+  text-decoration: none;
+}
+
+.navSwitcher {
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+}
+.brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 0.3em;
+  color: #d5050e;
+}
+.bars {
+  display: none;
+}
+
+.navLinks {
+  grid-column: 8/13;
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+.navLinks li a {
+  color: #6c6c6c;
+  
+  font-weight: bold;
+}

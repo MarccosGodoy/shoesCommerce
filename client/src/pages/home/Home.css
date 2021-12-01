@@ -1,0 +1,49 @@
+.home {
+  height: 100vh;
+}
+
+.home main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+}
+
+.slogan {
+  height: 90vh;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan h1 {
+  color: #d5050e;
+  font-size: 4em;
+  font-weight: bold;
+}
+.slogan h2 {
+  font-size: 2em;
+}
+
+.imagesContainer {
+  height: 90vh;
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+}
+.imagesUl {
+  display: flex;
+  width: 63%;
+  height: 95%;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #c4c4c4;
+}
+
+.image {
+  height: 90%;
+  position: absolute;
+  right: 25vh;
+}
